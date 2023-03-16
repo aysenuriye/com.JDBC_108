@@ -1,11 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.136">
-    <testcase classname="JDBC uzerinden Databse baglantisi kurularak ilk test" name="Users tablosundan isimler testi." time="1.808">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="8.414">
+    <testcase classname="ResultsetMetaData methodlari ile JDBC sorgusu calistirma" name="Staff tablosundan &quot;ID&quot; sorgulama" time="1.986">
         <system-out>
-            <![CDATA[Given Database ile iletisimi baslat.........................................passed
-Then Query statement araciligi ile database gonderilir......................passed
-Then Databaseden donen resulset verisi test edilir..........................passed
-And Database kapatilir......................................................passed
+            <![CDATA[* Database baglantisi kurulur...............................................passed
+* Staff tablosundaki "id" leri listelenir...................................passed
+* Verilen "5" dogrulanir....................................................passed
+* Database baglantisi kapatilir.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ResultsetMetaData methodlari ile JDBC sorgusu calistirma" name="Staff tablosundan &quot;ID&quot; sorgulama 2" time="1.038">
+        <system-out>
+            <![CDATA[* Database baglantisi kurulur...............................................passed
+* Staff tablosundaki "id" leri listelenir...................................passed
+* Verilen "2" dogrulanir....................................................passed
+* Database baglantisi kapatilir.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ResultsetMetaData methodlari ile JDBC sorgusu calistirma" name="Staff tablosundan &quot;ID&quot; sorgulama 3" time="0.973">
+        <system-out>
+            <![CDATA[* Database baglantisi kurulur...............................................passed
+* Staff tablosundaki "id" leri listelenir...................................passed
+* Verilen "3" dogrulanir....................................................passed
+* Database baglantisi kapatilir.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ResultsetMetaData methodlari ile JDBC sorgusu calistirma" name="Staff tablosundan &quot;ID&quot; sorgulama 4" time="1.04">
+        <system-out>
+            <![CDATA[* Database baglantisi kurulur...............................................passed
+* Staff tablosundaki "id" leri listelenir...................................passed
+* Verilen "4" dogrulanir....................................................passed
+* Database baglantisi kapatilir.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ResultsetMetaData methodlari ile JDBC sorgusu calistirma" name="Staff tablosundan &quot;ID&quot; sorgulama 5" time="1.001">
+        <system-out>
+            <![CDATA[* Database baglantisi kurulur...............................................passed
+* Staff tablosundaki "id" leri listelenir...................................passed
+* Verilen "1" dogrulanir....................................................passed
+* Database baglantisi kapatilir.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ResultsetMetaData methodlari ile JDBC sorgusu calistirma" name="Staff tablosundan &quot;ID&quot; sorgulama 6" time="0.962">
+        <system-out>
+            <![CDATA[* Database baglantisi kurulur...............................................passed
+* Staff tablosundaki "id" leri listelenir...................................passed
+* Verilen "100" dogrulanir..................................................passed
+* Database baglantisi kapatilir.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="ResultsetMetaData methodlari ile JDBC sorgusu calistirma" name="Staff tablosundan &quot;ID&quot; sorgulama 7" time="0.97">
+        <system-out>
+            <![CDATA[* Database baglantisi kurulur...............................................passed
+* Staff tablosundaki "id" leri listelenir...................................passed
+* Verilen "10" dogrulanir...................................................passed
+* Database baglantisi kapatilir.............................................passed
 ]]>
         </system-out>
     </testcase>
