@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.317">
-    <testcase classname="User datalarini test etme" name="Verilen datalar ile user bilgilerini dogrulama" time="1.941">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.815">
+    <testcase classname="tum productları listeleme" name="_2" time="2.375">
         <system-out>
             <![CDATA[* Database baglantisi kurulur...............................................passed
-* Verilen datalar ile query hazirlanip sorgu gerceklestirilir...............passed
-* Dönen Result set datasi dogrulanir........................................passed
+* seller_products tablosundaki  discount_type degeri "product_name" olan tüm product'lari listeler.passed
 * Database baglantisi kapatilir.............................................passed
 ]]>
         </system-out>
