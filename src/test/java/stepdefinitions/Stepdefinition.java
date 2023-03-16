@@ -40,6 +40,7 @@ public class Stepdefinition {
 
     List<Object> staffID= new ArrayList<>();
     List<Object> adresList= new ArrayList<>();
+    List<Object> sellerProducts= new ArrayList<>();
 
 
     @Given("Database ile iletisimi baslat")
@@ -168,6 +169,16 @@ public class Stepdefinition {
 
 
     }
+    @Given("seller_products tablosu listelenir.")
+    public void seller_ptoducts_tablosu_listelenir((String columnName)) {
+        String query= "SELECT * FROM u480337000_tlb_training.seller_products;";
+        sellerProducts = getColumnData(query);
+    }
+    @Given("seller_products tablosundaki discount_type degeri \\({int}) olan tüm product'lari listeler")
+    public void seller_ptoducts_tablosundaki_discount_type_degeri_olan_tüm_product_lari_listeler(Integer int1) {
+
+    }
+
 
 
 }
