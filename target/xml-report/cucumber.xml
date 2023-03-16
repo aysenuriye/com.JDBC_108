@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.815">
-    <testcase classname="tum productları listeleme" name="_2" time="2.375">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.974">
+    <testcase classname="tablo id dogrulama" name="_2" time="2.431">
         <system-out>
             <![CDATA[* Database baglantisi kurulur...............................................passed
-* seller_products tablosundaki  discount_type degeri "product_name" olan tüm product'lari listeler.passed
+* languages tablosundan verilen "Id" numarasinin native degerinin istenen datayi dondurdugu dogrulanmali..passed
 * Database baglantisi kapatilir.............................................passed
 ]]>
         </system-out>

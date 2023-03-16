@@ -41,6 +41,7 @@ public class Stepdefinition {
     List<Object> staffID= new ArrayList<>();
     List<Object> adresList= new ArrayList<>();
     List<Object> sellerProducts= new ArrayList<>();
+    List<Object> nativeq = new ArrayList<>();
 
 
     @Given("Database ile iletisimi baslat")
@@ -180,4 +181,11 @@ public class Stepdefinition {
             System.out.println(sellerProducts);
 
         }
+    @Given("languages tablosundan verilen {string} numarasinin native degerinin istenen datayi dondurdugu dogrulanmali.")
+    public void languages_tablosundan_verilen_numarasinin_degerinin_istenen_datayi_dondurdugu_dogrulanmali(String id ) throws SQLException {
+       String query="SELECT native FROM u480337000_tlb_training.languages where id=10";
+       String nativeC=getCellValue(query).toString();
+        System.out.println(nativeC);
+
+    }
     }
