@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.974">
-    <testcase classname="tablo id dogrulama" name="_2" time="2.431">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.667">
+    <testcase classname="tablo id dogrulama" name="_2" time="2.337">
         <system-out>
             <![CDATA[* Database baglantisi kurulur...............................................passed
 * languages tablosundan verilen "Id" numarasinin native degerinin istenen datayi dondurdugu dogrulanmali..passed

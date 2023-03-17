@@ -2,14 +2,17 @@ package stepdefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.apache.hc.core5.util.Asserts;
 import org.junit.Assert;
-
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Assertions;
+import org.testng.asserts.SoftAssert;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 import static utilities.DBUtils.*;
 
 
@@ -186,6 +189,11 @@ public class Stepdefinition {
        String query="SELECT native FROM u480337000_tlb_training.languages where id=10";
        String nativeC=getCellValue(query).toString();
         System.out.println(nativeC);
+        String expectedData="Bosanski";
+
+          assertEquals("doğrulanmadı",expectedData, nativeC);
+
+       // Assert.assertEquals(expectedData,nativeC);
 
     }
     }
